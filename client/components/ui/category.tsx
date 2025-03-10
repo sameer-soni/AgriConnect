@@ -15,7 +15,7 @@ export default function Category({ title = "vegetable", imgName = "vegetable", i
     return (
         <>
             <View className="m-2">
-                <View className="bg-green-200 rounded-2xl">
+                <View className="bg-[#baf2d7] rounded-2xl">
                     <Image source={imageSource} className="w-24 h-24" />
                 </View>
                 <Text className="capitalize text-center mt-1 text-base">{title}</Text>
